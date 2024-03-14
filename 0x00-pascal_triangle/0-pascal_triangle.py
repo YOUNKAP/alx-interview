@@ -3,15 +3,12 @@
 
 
 def pascal_triangle(n):
-    """Returns a list of lists of integers 
-    representing the Pascal’s triangle of n:
-    """
+    """Returnsthe Pascal’s triangle of n:"""
 
     if n <= 0:
         return []
 
-    
-    """ initialize an empty resulting array """
+    """initialize an empty resulting array"""
     pascal = [[] for idx in range(n)]
 
     for li in range(n):
